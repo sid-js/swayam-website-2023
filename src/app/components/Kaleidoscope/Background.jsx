@@ -96,7 +96,7 @@ const Background = () => {
 
   return (
     <div className='absolute top-0 left-0 w-screen h-screen overflow-hidden z-0 bg-black bg-opacity-50 sm:w-full blur-[1px]'>
-      <div className='absolute top-0 left-0 w-screen h-screen overflow-hidden z-10 bg-black bg-opacity-50 '></div>
+      <div className='absolute top-0 left-0 w-screen h-screen overflow-hidden z-10 bg-black bg-opacity-60'></div>
       <Kaleidoscope
         transform={`rotate(${rotationAngle}deg)`}
         slices={8}
